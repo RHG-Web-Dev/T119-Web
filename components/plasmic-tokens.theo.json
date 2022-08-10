@@ -1,0 +1,29 @@
+{
+  "props": [
+    {
+      "name": "sky-blue",
+      "type": "color",
+      "value": "#7276EDEB",
+      "category": "color",
+      "meta": {
+        "projectId": "wWdqNpczajVbVmMegT1Kwd",
+        "id": "Zwo1wxccg_z-v"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "wWdqNpczajVbVmMegT1Kwd",
+        "id": "X1jzKq8XupM90"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

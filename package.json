@@ -6,7 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@plasmicapp/cli": "^0.1.184",
+    "@plasmicapp/host": "^1.0.73",
     "@plasmicapp/loader-nextjs": "1.0.136",
+    "@plasmicapp/react-web": "^0.2.103",
+    "@plasmicpkgs/antd": "^0.0.88",
+    "antd": "^4.22.4",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
