@@ -9,9 +9,9 @@
     }
   ],
   "start_url": "/",
-  "background_color": "##515354",
+  "background_color": "#515354",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "##515354",
+  "theme_color": "#515354",
   "description": "Welcome to Troop 119"
 }
