@@ -1,0 +1,17 @@
+{
+  "short_name": "Troop 119",
+  "name": "Troop 119, Sevierville TN",
+  "icons": [
+    {
+      "src": "https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png",
+      "type": "image/png",
+      "sizes": "821x629"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "##515354",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "##515354",
+  "description": "Welcome to Troop 119"
+}
