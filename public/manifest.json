@@ -14,8 +14,20 @@
   ],
   "start_url": "/",
   "background_color": "#515354",
-  "display": "standalone",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
+  "display": "fullscreen",
   "scope": "/",
   "theme_color": "#515354",
-  "description": "Welcome to Troop 119"
+  "description": "Welcome to Troop 119",
+  "shortcuts": [
+    {
+      "name": "Homepage",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
+    },
+    {
+      "name": "Calendar",
+      "url": "/calendar"
+    }
+  ]
 }
