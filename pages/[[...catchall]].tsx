@@ -95,8 +95,8 @@ export default function CatchallPage(props: {
          <meta property="twitter:card" content="summary_large_image" />
          <meta property="twitter:url" content="https://boyscoutstroop119.com/" />
          <meta property="twitter:title" content="Troop 119, Sevierville TN" />
-         <meta property="twitter:description" content={description} />
-         <meta property="twitter:image" content={image} />
+         <meta property="twitter:description" content={pageMeta.description} />
+         <meta property="twitter:image" content={pageMeta.image} />
          {/* Apple */}
          <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png"></link>
         { /*
