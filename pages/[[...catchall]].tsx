@@ -74,7 +74,7 @@ export default function CatchallPage(props: {
     return <Error statusCode={404} />;
   }
   const pageMeta = plasmicData.entryCompMetas[0];
-  { console.log(pageMeta) }
+  console.log(pageMeta)
   return (
     // Pass in the data fetched in getStaticProps as prefetchedData
     <PlasmicRootProvider
