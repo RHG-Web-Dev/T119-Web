@@ -74,7 +74,6 @@ export default function CatchallPage(props: {
     return <Error statusCode={404} />;
   }
   const pageMeta = plasmicData.entryCompMetas[0];
-  console.log(pageMeta)
   return (
     // Pass in the data fetched in getStaticProps as prefetchedData
     <PlasmicRootProvider
@@ -90,15 +89,15 @@ export default function CatchallPage(props: {
       <PlasmicComponent component={pageMeta.displayName} />
       <Head>
          {/* Open Graph / Facebook */}
-		 <meta name="theme-color"></meta>
+		 <meta name="theme-color" content="#515354"></meta>
          <meta property="og:type" content="website" />
          {/* Twitter */}
          <meta property="twitter:card" content="summary_large_image" />
          <meta property="twitter:url" content="https://boyscoutstroop119.com/" />
          <meta property="twitter:title" content="Troop 119, Sevierville TN" />
-         <meta property="twitter:description" content={pageMeta.description} />
+         {/* <meta property="twitter:description" content={pageMeta.description} />
          <meta property="twitter:image" content={pageMeta.image} />
-         {/* Apple */}
+         {/* {/* Apple */}
          <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png"></link>
         { /*
         <meta name="og:type" content="website"/>
