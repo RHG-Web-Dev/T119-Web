@@ -5,6 +5,7 @@ import {
   PlasmicRootProvider,
 } from "@plasmicapp/loader-nextjs";
 import type { GetStaticPaths, GetStaticProps } from "next";
+import Head from 'next/head'
 import Error from "next/error";
 import { PLASMIC, PREVIEW_PLASMIC } from "../plasmic-init";
 
@@ -87,9 +88,26 @@ export default function CatchallPage(props: {
       }
       <PlasmicComponent component={pageMeta.displayName} />
       <Head>
+         {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+         {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:title" content="Troop 119, Sevierville TN" />
+        <meta property="twitter:description" content="We're troop 119 located within" />
+        <meta property="twitter:image" content="" />
+
+        { /*
         <meta name="og:type" content="website"/>
-        <meta name="keywords" content={pageMeta.metadata.keywords} />
-        <link rel="manifest" href="/manifest.json"></link>
+        <meta name="title" content=pageMeta. />
+        <meta name="description" content={pageMeta.metadata.keywords} />
+        <meta name="keywords" content="T119, GSMC" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="1 days" />
+        */}
+        <link rel="manifest" href="/manifest.json" />
       </Head>
     </PlasmicRootProvider>
   );
