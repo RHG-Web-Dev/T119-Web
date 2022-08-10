@@ -3,6 +3,11 @@
   "name": "Troop 119, Sevierville TN",
   "icons": [
     {
+      "src": "/micon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },{
       "src": "https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png",
       "type": "image/png",
       "sizes": "821x821"

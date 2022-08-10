@@ -89,14 +89,16 @@ export default function CatchallPage(props: {
       <PlasmicComponent component={pageMeta.displayName} />
       <Head>
          {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
+		 <meta name="theme-color"></meta>
+         <meta property="og:type" content="website" />
          {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
-        <meta property="twitter:title" content="Troop 119, Sevierville TN" />
-        <meta property="twitter:description" content="We're troop 119 located within" />
-        <meta property="twitter:image" content="" />
-
+         <meta property="twitter:card" content="summary_large_image" />
+         <meta property="twitter:url" content="https://boyscoutstroop119.com/" />
+         <meta property="twitter:title" content="Troop 119, Sevierville TN" />
+         <meta property="twitter:description" content={description} />
+         <meta property="twitter:image" content={image} />
+         {/* Apple */}
+         <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png"></link>
         { /*
         <meta name="og:type" content="website"/>
         <meta name="title" content=pageMeta. />
