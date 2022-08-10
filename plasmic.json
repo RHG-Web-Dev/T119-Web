@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -163,12 +163,13 @@
           "name": "Rate",
           "componentImportPath": "antd/lib/rate"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "wWdqNpczajVbVmMegT1Kwd",
       "projectApiToken": "axzvPAhJUHr6oOvzJQ0f0AEJPN1Sjhxqq8gIMv2cdrImHVnRh22nyhKolvfy464bzW9RPVVuBWeOFz4M6PQw",
-      "projectName": "Startup Landing Page",
+      "projectName": "T119",
       "version": "latest",
       "cssFilePath": "plasmic/startup_landing_page/plasmic_startup_landing_page.module.css",
       "components": [
