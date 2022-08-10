@@ -83,8 +83,14 @@ export default function CatchallPage(props: {
       {
         // plasmicData.entryCompMetas[0].displayName contains the name
         // of the component you fetched.
+        // <meta name="keywords" content={pageMeta.metadata.keywords}/> Saved for later?
       }
       <PlasmicComponent component={pageMeta.displayName} />
+      <Head>
+        <meta name="og:type" content="website"/>
+        <meta name="keywords" content={pageMeta.metadata.keywords} />
+        <link rel="manifest" href="/manifest.json"></link>
+      </Head>
     </PlasmicRootProvider>
   );
 }
