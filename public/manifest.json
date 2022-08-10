@@ -12,7 +12,7 @@
       "sizes": "256x256"
     }
   ],
-  "start_url": "/",
+  "start_url": "/manifest",
   "background_color": "#515354",
   "display_override": ["fullscreen", "standalone", "minimal-ui"],
   "display": "fullscreen",
