@@ -89,7 +89,7 @@ export default function CatchallPage(props: {
       <PlasmicComponent component={pageMeta.displayName} />
       <Head>
          {/* Open Graph / Facebook */}
-		 <meta name="theme-color" content="#515354"></meta>
+		     <meta name="theme-color" content="#515354" />
          <meta property="og:type" content="website" />
          {/* Twitter */}
          <meta property="twitter:card" content="summary_large_image" />
@@ -97,8 +97,12 @@ export default function CatchallPage(props: {
          <meta property="twitter:title" content="Troop 119, Sevierville TN" />
          {/* <meta property="twitter:description" content={pageMeta.description} />
          <meta property="twitter:image" content={pageMeta.image} />
-         {/* {/* Apple */}
-         <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png"></link>
+         {/* {/* Applications */}
+         <meta name="msapplication-TileColor" content="#515354" />
+         <meta name="msapplication-square150x150logo" content="/micon_x512.png" />
+         <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png" />
+         <link rel="icon" href="/micon_x512.png" type="image/png" sizes="16x16" />
+         <meta property="og:image" content="/micon_x512.png" />
         { /*
         <meta name="og:type" content="website"/>
         <meta name="title" content=pageMeta. />
