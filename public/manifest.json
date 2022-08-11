@@ -18,7 +18,7 @@
     }
   ],
   "start_url": "/manifest",
-  "background_color": "#D6CEBD",
+  "background_color": "#bfb9b3",
   "display_override": ["fullscreen", "standalone", "minimal-ui"],
   "display": "fullscreen",
   "scope": "/",
