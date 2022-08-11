@@ -3,14 +3,14 @@
   "name": "Troop 119, Sevierville TN",
   "icons": [
     {
+      "src": "https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png",
+      "type": "image/png",
+      "sizes": "821x821"
+    },{
       "src": "/micon_x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },{
-      "src": "https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png",
-      "type": "image/png",
-      "sizes": "821x821"
     },{
       "src": "/favicon.ico",
       "type": "image/ico",
@@ -18,7 +18,7 @@
     }
   ],
   "start_url": "/manifest",
-  "background_color": "#515354",
+  "background_color": "#D6CEBD",
   "display_override": ["fullscreen", "standalone", "minimal-ui"],
   "display": "fullscreen",
   "scope": "/",
@@ -27,8 +27,7 @@
   "shortcuts": [
     {
       "name": "Homepage",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/favicon.ico", "sizes": "256x256" }]
+      "url": "/"
     },
     {
       "name": "Calendar",
