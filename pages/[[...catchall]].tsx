@@ -101,7 +101,6 @@ export default function CatchallPage(props: {
          <meta name="msapplication-TileColor" content="#515354" />
          <meta name="msapplication-square150x150logo" content="/micon_x512.png" />
          <link rel="apple-touch-icon" sizes="512x512" href="/micon_x512.png" />
-         <link rel="icon" href="https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png/micon_x512.png" type="image/png" sizes="16x16" />
          <meta property="og:image" content="https://img.plasmic.app/img-optimizer/v1/img/3812756a93b80ebcdc8516239e51392f.png" />
         { /*
         <meta name="og:type" content="website"/>
